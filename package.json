@@ -1,0 +1,14 @@
+{
+    "name": "demo_cypress",
+    "version": "1.0.0",
+    "description": "athotesting training",
+    "main": "index.js",
+    "scripts": {
+        "cypress:open": "cypress open"
+    },
+    "author": "me",
+    "license": "ISC",
+    "devDependencies": {
+        "cypress": "^9.4.1"
+    }
+}
