@@ -4,11 +4,13 @@
     "description": "athotesting training",
     "main": "index.js",
     "scripts": {
-        "cypress:open": "cypress open"
+        "cypress:open": "cypress open",
+        "server:start": "node node_server.js"
     },
     "author": "me",
     "license": "ISC",
     "devDependencies": {
-        "cypress": "^9.4.1"
+        "cypress": "^9.4.1",
+        "nodemon": "^2.0.15"
     }
 }
