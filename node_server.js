@@ -1,7 +1,9 @@
-const http = require("http")
-http.createServer((request, response) => {
-    request.setHeader('Content-Type', 'application/json')
-    response.end(JSON.stringify({ a: 1 }, null, 3))
-}).listen(8080, "127.0.0.1", () => {
-    console.log("Server start listening 8080")
-})
+const http = require("http");
+
+http.createServer(function(request, response) {
+
+    response.setHeader("UserId", 12);
+    response.setHeader("Content-Type", "text/html; charset=utf-8;");
+    response.write("<h2>hello world</h2>");
+    response.end();
+}).listen(8080);
